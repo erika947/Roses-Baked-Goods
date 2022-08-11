@@ -1,13 +1,14 @@
 const React = require('react')
-    class NEW extends React.Component{
+    class Custom extends React.Component{
         render() {
             return (
                 <div>
                     <h1>Custom Orders page</h1>
-                    <form action="/api/v1/sweets/" method="POST">
+                    <form action="/api/v1/sweets/customs" method="POST">
                         Name: <br/> <input type="text" name="name" /><br/>
-                        Image: <br/> <input type="text" name="image" /><br/>
-                        Price: <br/> <input type="text" name="price"/><br/>
+                        Email: <br/> <input type="text" name="email" /><br/>
+                        Phone Number: <br/> <input type="text" name="phone_number" /><br/>
+                        Customize your Cake order: <br/> <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea><br/>
                         <input type="submit" name="" value="Submit Order"/>
                      </form>
                      <nav>
@@ -16,4 +17,4 @@ const React = require('react')
                 </div>);
           }
     }
-    module.exports = NEW
+    module.exports = Custom

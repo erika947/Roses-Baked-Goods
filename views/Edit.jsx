@@ -9,7 +9,8 @@ class Edit extends React.Component {
             <form action={`/api/v1/sweets/${bakedGoods.id}?_method=PUT`} method="POST">
                 Name: <input type="text" name="name" /><br/>
                 Image: <input type="text" name="image" /><br/>
-                <input type="submit" name="" value="Edit BakedGoods"/>
+                Price: <input type="text" name="price" /><br/>
+                <input type="submit" name="" value="Edit Item"/>
              </form>
              <nav>
      <a href="/api/v1/sweets/">Home Menu</a>
