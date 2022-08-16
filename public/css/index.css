@@ -30,8 +30,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-left: 200px;
-    margin-right: 200px;
+    /* margin-left: 120px;
+    margin-right: 120px; */ /*margin made the text look a bit squished on mobile*/
     font-size: 25px;
 }
 
