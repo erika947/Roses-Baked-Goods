@@ -16,8 +16,8 @@ class Index extends React.Component {
             <div className='test'>
               <h1 className="heading">Welcome To ChiChe's Homemade Sweets</h1>
               <img className="logo" src="https://cdn.discordapp.com/attachments/901516146841358407/1008899357115944991/IMG_3803.png"></img>
-              <p className="aboutme"> All natural...Wholesome...Freshly baked homemade sweets!</p>
-              <p className="aboutme">Made to Order</p>
+              <p className="aboutme"> All natural...Wholesome...Freshly baked homemade sweets! <br/>Made to Order</p>
+              
               <p className="aboutme" id="tab">Freshly home baked confections made from all natural, wholesome ingredients, with no artificial flavors, dyes or preservatives. Select from a variety of classical, signature and seasonal treats. ChiChe's Homemade Sweets is all about indulging your sweet tooth without feeling too guilty about it. Also available are our Gluten-free and Vegan options!</p>
 
               <ul className="listing">
