@@ -67,6 +67,8 @@ row-gap: 25px;
 
 .customIntro{
     font-size: 25px;
+    display: flex;
+    align-content: center;
 }
 
 /*Custom Cakes Showcase Section*/
@@ -90,9 +92,9 @@ row-gap: 25px;
 .container {
     margin-top: 95px;
     display: grid;
-    grid-template-columns: 100px 150px 200px;
+    grid-template-columns: 100px 150px 100px;
     text-align: center;
-    column-gap: 250px;
+    column-gap: 190px;
     row-gap: 250px;
     align-items: center;  
     padding-bottom: 150px;
@@ -101,7 +103,7 @@ row-gap: 25px;
   .column {
     padding: 16px;
     height: 250px;
-    margin: 5px;
+    margin: 16px;
     
   }
 
