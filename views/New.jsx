@@ -3,7 +3,7 @@ const React = require('react')
         render() {
             return (
                 <div>
-                    <h1>Custom Orders page</h1>
+                    <h1>New Items page</h1>
                     <form action="/api/v1/sweets/" method="POST">
                         Name: <br/> <input type="text" name="name" /><br/>
                         flavors: <br/> <input type="text" name="flavors" /><br/>

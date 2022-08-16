@@ -3,6 +3,9 @@
 All natural...Wholesome...Freshly baked homemade sweets!   
 Freshly home baked confections made from all natural, wholesome ingredients, with no artificial flavors, dyes or preservatives. Select from a variety of classical, signature and seasonal treats. ChiChe's Homemade Sweets is all about indulging your sweet tooth without feeling too guilty about it. Also available are our Gluten-free and Vegan options
 
+## ChiChe's Homemade Sweet Website link:
+https://chiches-homemade-sweets.herokuapp.com/api/v1/sweets/
+
 ## Sweet Routes:
 ---
    VERB 		 | 		  PATH 		 |  	 DESCRIPTION
@@ -20,18 +23,19 @@ DELETE | /api/v1/sweets/:id | delete a photo |
 
 ## Images
 ---
-Credits of images go to Chi Che's Homemade Sweet's Instagram
-Wallpaper by tkuzminka on https://depositphotos.com/107918956/free-stock-illustration-sweet-dessert-background-with-cupcakes.html
+* Credits of images go to Chi Che's Homemade Sweet's [Facebook](https://www.facebook.com/chicheshomemadesweets/)
+* Wallpaper by [tkuzminka](https://depositphotos.com/107918956/free-stock-illustration-sweet-dessert-background-with-cupcakes.html)
 
 ### Baked Good
 * Cupcakes: Simply Vanilla Cupcakes, Dark Decadent Chocolate, Smores Cupcake
 * Cookies: 3 different theme Sugar Cookies 
 
-
+### Cake Showcase
+* 6 Images from ChiChe's Homemade Sweets of different cakes that they have made.
 
 ## Authors
 
-* **Erika Rivera** - *Bakery's Website* - [Rose's Baked Goods](https://github.com/erika947/Roses-Baked-Goods)
+* **Erika Rivera** - *Bakery's Website* - [ChiChe's Homemade Sweets](https://github.com/erika947/Roses-Baked-Goods)
 
 
 ## Acknowledgments

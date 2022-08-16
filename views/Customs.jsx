@@ -14,7 +14,7 @@ class Custom extends React.Component {
                             Name: <br /> <input type="text" name="name" /><br />
                             Email: <br /> <input type="text" name="email" /><br />
                             Phone Number: <br /> <input type="text" name="phone_number" /><br />
-                            Customize your Cake order: <br /> <textarea id="w3review" placeholder="Rememinder that prices may vary depending on customizations to your order" name="w3review" rows="28" cols="100"></textarea><br />
+                            Customize your order: <br /> <textarea id="w3review" placeholder="Rememinder that prices may vary depending on customizations to your order" name="w3review" rows="28" cols="100"></textarea><br />
                             <input type="submit" name="" value="Submit Order" />
                         </form>
 
