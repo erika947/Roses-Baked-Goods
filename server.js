@@ -6,6 +6,7 @@ const BakedGoods = require("./models/bakedGoods")
 const CustomOrder = require("./models/customOrders")
 const methodOverride = require("method-override")
 const mongoose = require("mongoose")
+const BakedGoodsData = require('./utilities/bakedGoodsData')
 
 //DB Connection
 mongoose.connect(process.env.MONGO_URI);
@@ -18,17 +19,19 @@ mongoose.connection.once("open", () => {
   app.use(express.urlencoded({extended:true}))
   app.use(methodOverride("_method")); //Sets up method override for use
 
+  app.use(express.static("public"))
+
 
 app.set("view engine","jsx")
 app.engine("jsx", require("express-react-views").createEngine())
 
 
 // Seed route
-// app.get('/api/v1/sweets/seed', async (req, res) => {
-//   await BakedGoods.deleteMany({}) //Clear database
-//   await BakedGoods.create(BakedGoodsData)
-//     res.redirect('/api/v1/sweets/')
-// })
+app.get('/api/v1/sweets/seed', async (req, res) => {
+  await BakedGoods.deleteMany({}) //Clear database
+  await BakedGoods.create(BakedGoodsData)
+    res.redirect('/api/v1/sweets/')
+})
 
 //our routes
 app.get("/api/v1/sweets/", (req, res) => {

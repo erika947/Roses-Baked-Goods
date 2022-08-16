@@ -1,0 +1,163 @@
+*{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: url('cursor/Black\ White\ Normal\ Select.cur'), auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.wallpaper{
+    background-image: url('https://cdn.discordapp.com/attachments/901516146841358407/1008863066051575888/Depositphotos_107918956_S.jpg') ;
+    
+}
+
+.test{
+    background-color: #f4f2f0b3;
+    margin: 0 auto;
+    padding: 65px;
+    
+}
+
+.logo{
+    max-width: 300px;
+    max-height: auto;
+}
+
+.aboutme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 25px;
+}
+
+#tab{
+    text-indent: 5%;
+}
+
+.listing{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    background-color: rgba(238, 224, 172, 0.461);
+border-radius: 30px;
+row-gap: 25px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    
+}
+
+.link{
+    font-size: 25PX;
+    cursor: url('cursor/Black\ White\ Link\ Select.cur'), auto
+
+}
+
+.picture {
+    flex-direction: row;
+    max-width: 200px;
+    max-height: auto;
+}
+
+.cakes{
+    max-width: 300px;
+    max-height: auto;
+    
+}
+
+.spacing{
+    font-size: 25px;
+}
+.nameplate{
+    background-color: rgba(238, 224, 172, 0.461);
+    font-weight: bold;
+    border-radius: 30px;
+    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.container {
+    margin-top: 95px;
+    display: grid;
+    grid-template-columns: 100px 150px 200px;
+    text-align: center;
+    column-gap: 250px;
+    row-gap: 250px;
+    align-items: center;  
+    padding-bottom: 150px;
+    border: 50px;
+  }
+  .column {
+    padding: 16px;
+    height: 250px;
+    margin: 5px;
+    
+  }
+  
+  .customlink{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 25px;
+    font-style: italic;
+    align-content: center;
+    justify-content: center;
+    padding-bottom: 100px
+    
+  }
+
+  @import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+
+
+.social {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  width: 500px;
+  
+	
+}
+
+.icon-btn{
+	height: 75px;
+	width: 75px;
+	border: 0;
+	color: rgb(246, 93, 228);
+	cursor: url('cursor/Black\ White\ Link\ Select.cur');
+	font-size: 40px;
+	line-height: 75px;
+	transition: ease-in-out .3s;
+	border-radius: 50px;
+	margin-left: 10px;
+	background-color: rgb(246, 93, 228);
+}
+
+
+
+.facebook {
+	color: #c4d3f4;
+    cursor: url('cursor/Black\ White\ Link\ Select.cur')
+}
+
+
+.instagram {
+	color: #c4d3f4;
+    cursor: url('cursor/Black\ White\ Link\ Select.cur')
+}
+
+
+
+
+.facebook:hover {
+	background-color: #c4d3f4;	
+}
+
+.instagram:hover {
+	background-color: #c4d3f4;
+}
