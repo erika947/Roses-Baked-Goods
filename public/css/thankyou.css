@@ -17,30 +17,19 @@
     background-color: #f4f2f0b3;
     margin: 0 auto;
     padding: 65px;
+    margin-top: 250px;
     
 }
 
-.picture {
-    flex-direction: row;
-    max-width: 400px;
-    max-height: auto;
-    margin-left: 400px;
-    margin-right: 400px;
+h1{
+    font-style: italic;
 }
 
-.logo{
-    max-width: 300px;
-    max-height: auto;
-}
-
-.nameplate{
-    background-color: rgba(238, 224, 172, 0.461);
-    font-weight: bold;
-    border-radius: 30px;
-    padding-bottom: 20px;
-    padding-top: 15px;
-    
-    
+.thankyou{
+    font-style: italic;
+    font-size: 25px;
+    display: flex;
+    align-content: center;
 }
 
 .link{
@@ -77,12 +66,13 @@
 	border-radius: 50px;
 	margin-left: 10px;
 	background-color: rgb(243, 243, 243);
+    
 }
 
 
 
 .facebook {
-	color: #3b5998;
+	color: #3B5998;
     cursor: url('cursor/Black\ White\ Link\ Select.cur')
 }
 
@@ -104,6 +94,6 @@
 }
 
 a.links {
-    color: inherit;
+	color: inherit;	
     text-decoration: dashed none;
 }

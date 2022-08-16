@@ -63,15 +63,20 @@ row-gap: 25px;
     max-height: auto;
 }
 
+
+
+.customIntro{
+    font-size: 25px;
+}
+
+/*Custom Cakes Showcase Section*/
+
 .cakes{
     max-width: 300px;
     max-height: auto;
     
 }
 
-.spacing{
-    font-size: 25px;
-}
 .nameplate{
     background-color: rgba(238, 224, 172, 0.461);
     font-weight: bold;
@@ -81,6 +86,7 @@ row-gap: 25px;
     padding-left: 10px;
     padding-right: 10px;
 }
+
 .container {
     margin-top: 95px;
     display: grid;
@@ -98,7 +104,8 @@ row-gap: 25px;
     margin: 5px;
     
   }
-  
+
+  /* leads to custom form page*/
   .customlink{
     display: flex;
     flex-wrap: wrap;
@@ -109,6 +116,8 @@ row-gap: 25px;
     padding-bottom: 100px
     
   }
+
+  /*Create Social Links for Facebook and instagram*/
 
   @import url('https://fonts.googleapis.com/css?family=PT+Sans');
 
@@ -128,26 +137,26 @@ row-gap: 25px;
 	height: 75px;
 	width: 75px;
 	border: 0;
-	color: rgb(246, 93, 228);
+	color: rgb(243, 243, 243);
 	cursor: url('cursor/Black\ White\ Link\ Select.cur');
 	font-size: 40px;
 	line-height: 75px;
 	transition: ease-in-out .3s;
 	border-radius: 50px;
 	margin-left: 10px;
-	background-color: rgb(246, 93, 228);
+	background-color: rgb(243, 243, 243);
 }
 
 
 
 .facebook {
-	color: #c4d3f4;
+	color: #3B5998;
     cursor: url('cursor/Black\ White\ Link\ Select.cur')
 }
 
 
 .instagram {
-	color: #c4d3f4;
+	color: #cd486b;
     cursor: url('cursor/Black\ White\ Link\ Select.cur')
 }
 
@@ -160,4 +169,9 @@ row-gap: 25px;
 
 .instagram:hover {
 	background-color: #c4d3f4;
+}
+
+a.links {
+	color: inherit;	
+    text-decoration: dashed none;
 }

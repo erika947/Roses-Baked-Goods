@@ -27,11 +27,11 @@ app.engine("jsx", require("express-react-views").createEngine())
 
 
 // Seed route
-app.get('/api/v1/sweets/seed', async (req, res) => {
-  await BakedGoods.deleteMany({}) //Clear database
-  await BakedGoods.create(BakedGoodsData)
-    res.redirect('/api/v1/sweets/')
-})
+// app.get('/api/v1/sweets/seed', async (req, res) => {
+//   await BakedGoods.deleteMany({}) //Clear database
+//   await BakedGoods.create(BakedGoodsData)
+//     res.redirect('/api/v1/sweets/')
+// })
 
 //our routes
 app.get("/api/v1/sweets/", (req, res) => {

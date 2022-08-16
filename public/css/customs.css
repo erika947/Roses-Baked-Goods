@@ -20,29 +20,6 @@
     
 }
 
-.picture {
-    flex-direction: row;
-    max-width: 400px;
-    max-height: auto;
-    margin-left: 400px;
-    margin-right: 400px;
-}
-
-.logo{
-    max-width: 300px;
-    max-height: auto;
-}
-
-.nameplate{
-    background-color: rgba(238, 224, 172, 0.461);
-    font-weight: bold;
-    border-radius: 30px;
-    padding-bottom: 20px;
-    padding-top: 15px;
-    
-    
-}
-
 .link{
     font-size: 25PX;
     cursor: url('cursor/Black\ White\ Link\ Select.cur'), auto
@@ -82,7 +59,7 @@
 
 
 .facebook {
-	color: #3b5998;
+	color: #3B5998;
     cursor: url('cursor/Black\ White\ Link\ Select.cur')
 }
 
@@ -104,6 +81,6 @@
 }
 
 a.links {
-    color: inherit;
+	color: inherit;	
     text-decoration: dashed none;
 }

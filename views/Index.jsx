@@ -38,9 +38,9 @@ class Index extends React.Component {
               </ul>
 
               <h1> We Also Do Custom Cakes!</h1>
-              <p className='spacing'>Come and look at our many different cakes that we have done to order in the past years.</p>
+              <p className="customIntro">Come and look at our many different cakes that we have done to order in the past years.</p>
 
-
+{/*Cakes Showcase: */}
               <div className="container">
 
                 <div className="column">
@@ -82,19 +82,22 @@ class Index extends React.Component {
               </div>
 
 <div>
+
+  {/*Link to custom order page*/}
 <p className='customlink'> Interested in getting your own customize cake? <br/> Click the link here to start your order<br/> <a className="link" href="/api/v1/sweets/customs">Start Customize Order!</a> 
 </p>
 
-              
+
+{/* Social links:*/}
 
 <div className="social">
                   <button className="icon-btn facebook">
-                    <a className="link" href="https://www.facebook.com/chicheshomemadesweets/" target="_blank">
+                    <a className="links" href="https://www.facebook.com/chicheshomemadesweets/" target="_blank">
                       <i className="fa fa-facebook"></i>
                     </a></button>
 
                   <button className="icon-btn instagram">
-                    <a className="link" href="https://www.instagram.com/chicheshomemadesweets/?hl=en/" target="_blank">
+                    <a className="links" href="https://www.instagram.com/chicheshomemadesweets/?hl=en/" target="_blank">
                       <i className="fa fa-instagram"></i>
                     </a></button>
 
